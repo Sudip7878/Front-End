@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(193, 193, 255);
+}
+.form{
+    height: 80vh;
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 100px;
+    margin-left: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    padding: 0px 85px 4px 85px;
+    margin-left: 22px;
+    background-color: azure;
+}
+.policy{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.field{
+    background-color: azure;
+    margin-left: 20px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="form">
+    <form  action="#" method="POST" enctype="multipart/form-data">
+        <label for="country" style="margin-right: 50px;">Country:</label>
+        <select id="country" name="country" size="">
+            <option value="Nepal" selected>Nepal</option>
+            <!-- Add more options for other countries if needed -->
+        </select>
+        <br><br>
+
+        <label for="body" style="margin-right: 50px;">Body:</label>
+        <select id="body" name="body" size="1">
+            <option value="Education" selected>Education</option>
+            <!-- Add more options for other bodies if needed -->
+        </select>
+        <br><br>
+
+        <label for="section" style="margin-right: 30px;">Section:</label>
+        <select id="section" name="section" size="1">
+            <option value="Pass/Fail Ratio" selected>Pass/Fail Ratio</option>
+            <!-- Add more options for other sections if needed -->
+        </select>
+        <br><br>
+        <div class="policy">
+        <label for="policy">Policy:</label>
+        <div class="field">
+        <input style="margin-right: 9px;" type="text" name="" placeholder="Title" id="">
+        <button>Upload PDF</button><br>
+        <button style="margin-top: 10px; margin-right: 120px; padding: 0px 50px 4px 50px;">ADD+</button>
+        <br><br>
+    </div>
+</div>
+<br>
+
+        <label for="result" style="margin-right: 50px;">Result:</label>
+        <button type="button" onclick="uploadJSON()" style=" padding: 0px 30px 4px 30px; margin-left: 50px;">Upload JSON</button>
+        <br><br>
+
+        <button type="submit" name="publish" value="Publish" style="background-color: aquamarine; padding: 0px 50px 4px 50px;">Publish</button>
+    </form>
+</div>
+    <script>
+        function addAnotherFile() {
+            // Add logic here to append another file input field
+            // Example:
+            // var input = document.createElement("input");
+            // input.type = "file";
+            // input.name = "additionalFile[]";
+            // document.body.appendChild(input);
+        }
+
+        function uploadJSON() {
+            // Add logic here to handle JSON upload
+        }
+    </script>
+</body>
+</html>
