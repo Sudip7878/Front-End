@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+
+.right{
+    width: 75vw;
+    margin: 14px 0px;
+    position: relative;
+}
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.home ul li{
+    list-style: none;
+    width: 15px;
+    display: flex;
+    gap: 15px;
+    padding-top: 13px;
+    font-weight: bold;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.m-1{
+    margin: 3px;
+}
+.p-1{
+    padding: 10px;
+}
+.rounded{
+    border-radius: 5px;
+}
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 13px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.heading img{
+    width: 30px;
+
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 16px 1px;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+    
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    height: 53px;
+}
+
+.nav{
+    padding: 10px 0px
+}
+.header > *{
+    padding: 20px;
+}
+.cardlist{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+.playlist .cardlist .card{
+    width: 200px;
+    background-color: #252525;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; /* Adjust the width and height to make the circle as needed */
+    height: 50px; /* Adjust the width and height to make the circle as needed */
+    background-color: #1fdf64; /* Background color */
+    border-radius: 50%; /* Make it a circle */
+    position: absolute;
+    top: 145px;
+    right: 17px;
+}
+.circle-container svg path {
+    fill: black; /* Make the play button solid black */
+}
+
+.signupbtn{
+    font-weight: bold;
+    background-color: rgb(34, 34, 34);
+    color: rgb(78, 76, 76);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    
+}
+.button{
+    padding: 6px
+}
+.button > *{
+    margin: 0 12px;
+}
+.signupbtn:hover{
+    color: white;
+    font-size: 17px;
+}
+.loginbtn{
+    border-radius: 21px;
+    font-size: 16px;
+    width: 79px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+.loginbtn:hover{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.playbar{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(165, 220, 165);
+    width: 90%;
+    padding: 12px;
+}
+.musicicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
